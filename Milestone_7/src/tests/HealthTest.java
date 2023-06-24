@@ -11,7 +11,7 @@ class HealthTest {
 
 	@Test
 	@DisplayName("Test Set/Get Amount")
-	public void testSetGetPrice() {
+	public void testSetGetAmount() {
 		Health health1 = new Health();
 		health1.setAmount(100);
 		assertEquals(100, health1.getAmount());

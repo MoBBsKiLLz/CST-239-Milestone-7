@@ -11,7 +11,7 @@ class ArmorTest {
 
 	@Test
 	@DisplayName("Test Set/Get Resistance")
-	public void testSetGetPrice() {
+	public void testSetGetResistance() {
 		Armor armor1 = new Armor();
 		armor1.setResistance(30);
 		assertEquals(30, armor1.getResistance());

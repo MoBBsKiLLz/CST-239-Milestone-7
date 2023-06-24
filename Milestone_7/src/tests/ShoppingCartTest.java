@@ -15,7 +15,7 @@ class ShoppingCartTest {
 
 	@Test
 	@DisplayName("Test Set/Get Shopping Cart")
-	public void testSetGetInventory() {
+	public void testSetGetShoppingCart() {
 		ShoppingCart<Product> inventory1 = new ShoppingCart<Product>();
 		ArrayList<Product> list = new ArrayList<Product>();
 		inventory1.setShoppingCart(list);
